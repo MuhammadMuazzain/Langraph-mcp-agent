@@ -22,16 +22,10 @@ async def get_weather(location: str) -> str:
     Returns:
         str: A string containing the weather information for the specified location
     """
-    # Return a mock weather response
-    # In a real implementation, this would call a weather API
-    return f"It's always Sunny in {location}"
+    return f"Its always Sunny at {location}"
 
 
 if __name__ == "__main__":
     # Print a message indicating the server is starting
     print("mcp remote server is running...")
-
-    # Start the MCP server with SSE transport
-    # Server-Sent Events (SSE) transport allows the server to communicate with clients
-    # over HTTP, making it suitable for remote/distributed deployments
     mcp.run(transport="sse")
