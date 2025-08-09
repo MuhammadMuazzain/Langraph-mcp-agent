@@ -7,8 +7,6 @@
 [![Python](https://img.shields.io/badge/Python-≥3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Version](https://img.shields.io/badge/Version-0.1.0-orange)](https://github.com/teddylee777/langgraph-mcp-agents)
 
-![project demo](./assets/project-demo.png)
-
 ## Project Overview
 
 ![project architecture](./assets/architecture.png)
@@ -112,7 +110,7 @@ docker compose -f docker-compose-mac.yaml up -d
 1. Clone this repository
 
 ```bash
-git clone https://github.com/teddynote-lab/langgraph-mcp-agents.git
+git clone https://github.com/MuhammadMuazzain/langgraph-mcp-agents.git
 cd langgraph-mcp-agents
 ```
 
@@ -196,8 +194,6 @@ Finally, click the "Apply" button to apply the changes to initialize the agent w
 ![check status](./assets/check-status.png)
 
 5. Interact with the ReAct agent that utilizes the configured MCP tools by asking questions in the chat interface.
-
-![project demo](./assets/project-demo.png)
 
 ## Hands-on Tutorial
 
